@@ -1,5 +1,11 @@
 ﻿public class Solution {
     public string Convert(string s, int numRows) {
+        if (numRows == 1 || numRows >= s.Length)
+        {
+            return s;
+        }
+
+
         return null;
     }
 
